@@ -1,0 +1,20 @@
+#kolom1
+{
+
+	height: auto;
+	width: 200px;
+	background-color: yellow;
+	float: left;
+	display: inline-block;
+
+
+}
+
+.kolom2
+{
+	display: inline-block;
+	height: auto;
+	width: 584px;
+	background-color: pink;
+	float: left;
+}
