@@ -3,10 +3,10 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #444;
 }
 .navbar li {
-  float: right;
+  float: left;
   margin-right: 20px;
 }
 .navbar li a {
@@ -17,7 +17,27 @@
   text-decoration: none;
 }
 .navbar li a:hover {
-  background-color: #5fdfff;
+  background-color: #64c9ff;
+}
+.navbar .active {
+  background-color: #64c9ff;
+}
+
+.contenthome {
+  background-color: pink;
+}
+
+.contentcontact {
+  background-color: lime;
+}
+
+.contentabout {
+  background-color: sandybrown;
+}
+
+img {
+  border-radius: 50%;
+  width: 50%;
 }
 
 /*# sourceMappingURL=variabel.css.map */

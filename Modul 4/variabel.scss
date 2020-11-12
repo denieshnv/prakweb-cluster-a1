@@ -1,5 +1,5 @@
-$mycolour : rgb(95, 223, 255);
-$bgcolour : #333;
+$mycolour : rgb(100, 201, 255);
+$bgcolour : #444;
 $number1 : 20px;
 $align1 : center;
 
@@ -14,7 +14,7 @@ $align1 : center;
     }
 
     li{
-        float: right;
+        float: left;
         margin-right: $number1;
 
     }
@@ -29,4 +29,26 @@ $align1 : center;
     li a:hover {
         background-color: $mycolour;
     }
+
+    .active {
+        background-color: $mycolour;
+    }
+    
+   
+}
+.contenthome{
+    background-color: pink;
+}
+
+.contentcontact{
+    background-color: lime;
+}
+
+.contentabout{
+    background-color: sandybrown;
+}
+
+img{
+    border-radius: 50%;
+    width: 50%;;
 }
