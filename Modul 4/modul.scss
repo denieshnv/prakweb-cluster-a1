@@ -4,3 +4,14 @@
     background-color: cornflowerblue;
     color: white;
 }
+
+@mixin transform($property) {
+    padding: $property;
+    background-color: deeppink;
+    color: aliceblue;
+    margin-left: 330px;
+}
+
+.empat {
+    @include transform(20px);
+}
