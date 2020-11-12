@@ -1,0 +1,50 @@
+<?php
+    $a = 20;
+    $b = 5;
+    $operator ;
+
+    echo "bilangan 1 = ".$a;
+    echo "<br>";
+    echo "bilangan 2 = ".$b;
+    echo "<br>";
+    echo "<br>";
+    echo "Berikut merupakan hasil dari setiap operasi";
+    echo "<br>";
+    echo "<br>";
+    echo "PENJUMLAHAN";
+    echo "<br>";
+    echo "Operator : + " ."<br>";
+    echo "Hasil : " ;
+    echo $a + $b;
+    echo "<br>";
+    echo "<br>";
+    echo "PENGURANGAN";
+    echo "<br>";
+    echo "Operator : - " ."<br>";
+    echo "Hasil : ";
+    echo $a - $b;
+    echo "<br>";
+    echo "<br>";
+    echo "PERKALIAN";
+    echo "<br>";
+    echo "Operator : * " ."<br>";
+    echo "Hasil : ";
+    echo $a * $b;
+    echo "<br>";
+    echo "<br>";
+    echo "PEMBAGIAN";
+    echo "<br>";
+    echo "Operator : / " ."<br>";
+    echo "Hasil : ";
+    echo $a / $b;
+    echo "<br>";
+    echo "<br>";
+    echo "MODULUS";
+    echo "<br>";
+    echo "Operator : % " ."<br>";
+    echo "Hasil : ";
+    echo $a % $b;
+    echo "<br>";
+    echo "<br>";
+?>
+
