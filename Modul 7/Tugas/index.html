@@ -1,0 +1,44 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Modul 7 </title>
+
+</head>
+<body>
+    <h3>DATA MAHASISWA</h3>
+    =======================
+    <h3>TAMBAH DATA</h3>
+    <form action="tambahMahasiswa.php" method="post">
+    NIM     : <input type="text" name="nim" size="35" maxlength="50"><br><br>
+    Nama    : <input type="text" name="nama" size="35" maxlength="50"><br><br>
+    Alamat  : <textarea name="alamat" rows="3" cols="35"></textarea><br><br>
+    Jurusan : 
+    <select name="jurusan">
+        <option value="tm123">Teknik Mesin</option>
+        <option value="te123">Teknik Elektro</option>
+        <option value="ti123">Teknik Informatika</option>
+       
+    </select>
+    <br><br>
+    <input type="submit" value ="Tambah">
+
+    </form>
+    =======================
+    <h3>Search Data</h3>
+    <form action="hasilsearch.php" method="post">
+    Nama    :
+    <input type="text" name="nama">
+    <input type="submit" value ="Tambah">
+    </form>
+
+    =======================
+    <h3>Delete Data</h3>
+    <form action="prosesdelete.php" method="post">
+    NIM    :
+    <input type="text" name="nim">
+    <input type="submit" value ="Hapus">
+    </form>
+</body>
+</html>
