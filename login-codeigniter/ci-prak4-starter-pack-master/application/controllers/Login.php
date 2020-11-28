@@ -1,5 +1,5 @@
 <?php
-defined ('BASEPATH') OR exit ('No direct scrpt access allowed');
+defined ('BASEPATH') OR exit ('No direct script access allowed');
 
 class Login extends CI_Controller {
 
@@ -24,7 +24,7 @@ class Login extends CI_Controller {
         if($getUser){
             $data=[
                 'username'->$username,
-                'loggendin_time'->time()
+                'loggedin_time'->time()
             ];
             $this->session->set_userdata($data);
             redirect('user');
