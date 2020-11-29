@@ -23,8 +23,8 @@ class Login extends CI_Controller {
 
         if($getUser){
             $data=[
-                'username'->$username,
-                'loggedin_time'->time()
+                'username'=>$username,
+                'loggedin_time'=>time()
             ];
             $this->session->set_userdata($data);
             redirect('user');

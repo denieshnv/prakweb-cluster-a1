@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/login-codeigniter/';
+$config['base_url'] = 'http://localhost/cobaLaravel/prakweb-cluster-a1/1/login-codeigniter/';
 
 /*
 |--------------------------------------------------------------------------

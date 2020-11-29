@@ -12,7 +12,7 @@ class User extends CI_Controller{
             $this->session->set_flashdata('message','<p>Login dulu</p>');
             redirect ('login');
         }
-        if($this->session->username('username')!=NULL){
+        if($this->session->userdata('username')!=NULL){
             if($this->model_model->isLoginSessionExpired()){
                 $this->session->set_flashdata('message', '<p>Login sesi telah habis, silakan login kembali!</p>');
                 redirect('user/logout');

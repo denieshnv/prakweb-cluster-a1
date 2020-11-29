@@ -2,7 +2,7 @@
 
 class Model extends CI_model{
 
-    public function getUsername($usernane){
+    public function getUsername($username){
         return $this->db->get_where('user',['username'=>$username])->row_array();
     }
 
