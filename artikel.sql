@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 29 Nov 2020 pada 15.59
+-- Waktu pembuatan: 29 Nov 2020 pada 16.56
 -- Versi server: 10.4.13-MariaDB
 -- Versi PHP: 7.4.8
 
@@ -34,6 +34,14 @@ CREATE TABLE `artikel` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
+-- Dumping data untuk tabel `artikel`
+--
+
+INSERT INTO `artikel` (`id`, `isi_artikel`, `id_user`) VALUES
+(1, ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis labore nesciunt nemo molestias mollitia at. Animi esse culpa, voluptatibus iure nihil blanditiis alias itaque ipsam reprehenderit magni dolore ipsa tempora.', 2),
+(2, 'BUKAN BUKAN BUKAN Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis labore nesciunt nemo molestias mollitia at. Animi esse culpa, voluptatibus iure nihil blanditiis alias itaque ipsam reprehenderit magni dolore ipsa tempora.', 3);
+
+--
 -- Indexes for dumped tables
 --
 
@@ -51,7 +59,7 @@ ALTER TABLE `artikel`
 -- AUTO_INCREMENT untuk tabel `artikel`
 --
 ALTER TABLE `artikel`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
