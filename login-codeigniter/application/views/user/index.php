@@ -5,7 +5,7 @@
 <body>
     <table border="0" cellpadding ="10" cellspasing="1" width ="100%"> 
         <tr>
-            <td align ="center">User Dashboard</td>
+            <td text-align ="center">User Dashboard</td>
         </tr>
         <tr>
             <td>

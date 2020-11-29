@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,22 +10,22 @@
     <form method="post" action="<?=base_url('login/cekLogin')?>">
         <table>
             <tr>
-                <td align="center" colspan="2">Enter Login Detils</td>
+                <td text-align="center" colspan="2">Enter Login Detils</td>
             </tr>
             <tr>
-                <td align ="right">Username</td>
+                <td text-align ="right">Username</td>
                 <td>
                     <input type="text" name="user_name">
                 </td> 
             </tr>
             <tr>
-                <td align ="right">Password</td>
+                <td text-align ="right">Password</td>
                 <td>
                     <input type="password" name="password">
                 </td>
             </tr>
             <tr>
-                <td align =  "center" colspan="2">
+                <td text-align =  "center" colspan="2">
                     <button type ="submit">SUBMIT</button>
                 </td>
             </tr>
